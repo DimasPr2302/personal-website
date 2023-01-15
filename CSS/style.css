@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --fitft-font-family: 'Josefin Slab', serif;
+    --fourth-font-family: 'Open Sans', sans-serif;
+    --third-font-family: 'Spectral', serif;
+    --second-font-family: 'Poppins', sans-serif;
+    --main-font-family: 'Dancing Script', cursive;
+    --bg1-background-color: #D6E6F2;
+    --black-text-color: #323232;
+    --red-color: #FC5185;
+    --thirdText-color: #364F6B;
+    --text-color: #3FC1C9;
+    --secondText-color: #3F72AF;
+    --bg-background-color: #F5F5F5;
+}
+
+body {
+    text-align: center;
+    background-color: var(--bg-background-color);
+}
+
+h1 {
+    font-size: 6rem;
+    margin-bottom: 10px;
+    padding-top: 80px;
+    font-family: var(--main-font-family);
+    color: var(--text-color);
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.top-container h2 {
+    font-size: 22px;
+}
+
+h2 {
+    font-weight: normal;
+    font-family: var(--fourth-font-family);
+    color: var(--text-color);
+    font-size: 220%;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: var(--second-font-family);
+    color: var(--text-color);
+}
+
+p {
+    font-family: var(--second-font-family);
+    color: var(--thirdText-color);
+}
+
+hr {
+    border: dotted #364F6B 8px;
+    border-bottom: none;
+    width: 5%;
+    margin: 90px auto;
+    opacity: .5;
+}
+
+.skills {
+    margin: 60px 0;
+}
+
+.skill-row {
+    text-align: left;
+    margin: 90px 0 120px 0;
+}
+
+.img-1, .img-2 {
+    width: 25%;
+}
+
+.img-1 {
+    float: left;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.img-2 {
+    float: right;
+    border-radius: 50%;
+    margin: 0 0 0 30px;
+}
+
+.top-container {
+    background-color: var(--bg1-background-color)
+}
+
+.top-cloud {
+    position: relative;
+    top: 70px;
+    left: 320px;
+}
+
+.bottom-cloud {
+    left: 10rem;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.middle-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.middle-container p {
+    font-family: var(--fitft-font-family);
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.profile {
+    padding: 20px 20px 20px 20px;
+}
+
+.profile p {
+    color: var(--thirdText-color);
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+    font-family: var(--fitft-font-family);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.personal-img {
+    margin-top: 25px;
+    padding: 0 0 20px 0
+}
+
+.contact-me h3 {
+    margin: 10px 0;
+}
+
+.contact-me p {
+    margin: 3rem 0;
+}
+
+/* CSS */
+.btn {
+    margin: 50px auto;
+    background-color: #3DD1E7;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    width: 100%;
+    max-width: 260px;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+.btn:hover:after {
+    bottom: 2px;
+    left: 2px;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        padding: .75rem 3rem;
+        font-size: 1.25rem;
+    }
+}
+
+.bottom-container {
+    background-color: var(--bg1-background-color);
+    padding: 40px 0;
+}
+
+.footer-link {
+    font-size: 2rem;
+    margin: 0 5px;
+    text-decoration: none;
+    color: var(--secondText-color);
+    transition: .1s;
+}
+
+.footer-link:hover {
+    color: #fefefe;
+}
+.bottom-container p {
+    margin: 10px 0 0 0;
+}
