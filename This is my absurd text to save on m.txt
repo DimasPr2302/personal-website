@@ -1,0 +1,1 @@
+This is my absurd text to save on my local storage. I'll use this file to fill my new branch named "development".
